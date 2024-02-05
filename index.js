@@ -1,8 +1,7 @@
-const ammount = 12
+//modules
+const sayhi = () =>{
+    let name = prompt('enter your name: ')
+    console.log (`Hello there:' ${name}`)
+}
 
-if (ammount < 10){
-    console.log ('small number')
-}
-else{
-    console.log('big num')
-}
+sayhi()
