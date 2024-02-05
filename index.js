@@ -1,7 +1,7 @@
 //modules
-const sayhi = () =>{
-    let name = prompt('enter your name: ')
-    console.log (`Hello there:' ${name}`)
-}
+const {john, mary} = require ('./names')
+const func = require ('./func')
 
-sayhi()
+
+func(john)
+func(mary)
